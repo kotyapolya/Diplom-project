@@ -11,7 +11,7 @@ export const VerificationUserTemplate: React.FC<Props> = ({ code }) => (
     </p>
 
     <p>
-      <a href={`http://localhost:3000/api/auth/verify?code=${code}`}>Підтвердити реєстрацію</a>
+      <a href={`https://yummyfood-three.vercel.app/api/auth/verify?code=${code}`}>Підтвердити реєстрацію</a>
     </p>
   </div>
 );
